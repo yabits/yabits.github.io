@@ -84,12 +84,12 @@ Boot time comparison on Lenovo ThinkPad X230. yabits vs default UEFI
 
 ### Other UEFI implementations
 
-|          | Boot time                | Footprint                |
-| -------- | ------------------------ | ------------------------ |
-| yabits   | :heavy_check_mark:       | :heavy_check_mark:       |
-| default  | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| TianCore | :heavy_multiplication_x: | :heavy_multiplication_x: |
-| NERF     | :heavy_check_mark:       | :heavy_check_mark:       |
+|          | Boot time  | Footprint |
+| -------- | ---------- | --------- |
+| yabits   | ✔️          | ✔️         |
+| default  | ✖️          | ✖️         |
+| TianCore | ✖️          | ✖️         |
+| NERF     | ✔️          | ✔️         |
 
 ## License
 
