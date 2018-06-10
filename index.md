@@ -66,9 +66,11 @@ $ make
 ## Demo
 
 OpenBSD runs with yabits
+
 [![OpenBSD runs with yabits](https://img.youtube.com/vi/2jjS4zQgUxQ/0.jpg)](https://www.youtube.com/watch?v=2jjS4zQgUxQ)
 
 Boot time comparison on Lenovo ThinkPad X230. yabits vs default UEFI
+
 [![Boot time comparison](https://img.youtube.com/vi/1OTUr2_W5r4/0.jpg)](https://www.youtube.com/watch?v=1OTUr2_W5r4)
 
 ## Comparison
