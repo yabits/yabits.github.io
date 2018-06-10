@@ -28,6 +28,41 @@ $ qemu-system-x86_64 -drive if=pflash,format=raw,readonly,file=coreboot.rom -dri
 
 ## Build from Source
 
+### Step1 - Follow coreboot build instruction [coreboot lesson 1 - Starting from scratch](https://doc.coreboot.org/lessons/lesson1.html)
+
+### Step2 - Clone yabits repository
+
+```
+$ git clone https://github.com/yabits/uefi.git
+$ cd uefi
+```
+
+### Step3 - Configure settings
+
+```
+$ make menuconfig
+```
+
+### Step4 - Build yabits payload
+
+```
+$ make
+```
+
+### Step5 - Configure coreboot
+
+```
+$ cd coreboot
+$ make menuconfig
+    select your favorite mainboard
+    select 'Payload' menu
+    select 'Add a Payload'
+    select 'Payload path and filename'
+    select 'uefi/build/build/uefi.elf'
+    save config and exit
+$ make
+```
+
 ## Demo
 
 ## Comparision
