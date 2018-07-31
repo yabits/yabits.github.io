@@ -89,7 +89,7 @@ Boot time comparison on Lenovo ThinkPad X230. yabits vs default UEFI
 | yabits    | ✔️          | ✔️         | ✔️           | ✔️              |
 | default   | ✖️          | ✖️         | ✖️           | ✖️              |
 | TianoCore | ✖️          | ✖️         | ✔️           | ✖️              |
-| NERF      | ✔️          | ✔️         | ✔️           | ✖️              |
+| NERF      | ✔️          | ✔️         | ✔️           | ✔️              |
 
 ## License
 
