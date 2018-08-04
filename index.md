@@ -89,9 +89,7 @@ Boot time comparison on Lenovo ThinkPad X230. yabits vs default UEFI
 | yabits    | ✔️          | ✔️         | ✔️           | ✔️              |
 | default   | ✖️          | ✖️         | ✖️           | ✖️              |
 | TianoCore | ✖️          | ✖️         | ✔️           | ✖️              |
-| NERF      | ✔️          | ✔️         | ✔️           | ✔️ [1]          |
-
-* [1] NERF itself is TianoCore free, however it still use TianoCore tools.
+| NERF      | ✔️          | ✔️         | ✔️           | ✔️              |
 
 ## License
 
