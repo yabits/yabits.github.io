@@ -12,11 +12,11 @@ It is still under the development and not ready for production.
 
 The latest yabits is [v0.0.1](https://github.com/yabits/uefi/releases/tag/v0.0.1).
 This release is pre-release.
-* `coreboot.com`: coreboot rom with yabits for `qemu-system-x86_64` machine type "pc-i440fx-2.8"
+* `coreboot.rom`: coreboot rom with yabits for `qemu-system-x86_64` machine type "pc-i440fx-2.8"
 * `uefi`: yabits coreboot payload with debug infomation
 * `uefi.elf`: stripped yabits coreboot payload
 
-You can try yabits `coreboot.com` on QEMU.
+You can try yabits `coreboot.rom` on QEMU.
 Prepare UEFI-aware OS image.
 Run
 
